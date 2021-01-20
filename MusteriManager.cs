@@ -8,7 +8,7 @@ namespace ClassMetotDemo
     {
         public void Ekle(Musteri musteri) 
         {
-            Console.WriteLine("Müşteri eklendi. " + musteri.Ad + musteri.Soyad + ".");
+            Console.WriteLine("Müşteri eklendi--> "+musteri.Ad + musteri.Soyad );
         }
        
         public void Listele(Musteri musteri)
@@ -20,7 +20,7 @@ namespace ClassMetotDemo
 
         public void Sil(Musteri musteri)
         {
-
+        
         }
     }
 }
